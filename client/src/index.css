@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+  --bg-color: #f5f8f7;
+  --text-color: #0f172a;
+  --primary-color: #0df26c;
+  --secondary-color: #102217;
+  --accent-color: #0df26c;
+  --success-color: #22c55e;
+  --error-color: #ef4444;
+  --warning-color: #f59e0b;
+  --border-color: #e2e8f0;
+  --hover-bg-color: #e2e8f0;
+  --hover-text-color: #0f172a;
+  --card: #ffffff;
+  --card-hover: #f1f5f9;
+
+  --font-family: "Lexend", sans-serif;
+
+  --container-width: 920px;
+}
+
+[data-theme="dark"] {
+  --bg-color: #102217;
+  --text-color: #ffffff;
+  --primary-color: #0df26c;
+  --secondary-color: #f5f8f7;
+  --accent-color: #0df26c;
+  --success-color: #22c55e;
+  --error-color: #ef4444;
+  --warning-color: #f59e0b;
+  --border-color: #1f2937;
+  --hover-bg-color: #18181b;
+  --hover-text-color: #ffffff;
+  --card: #18181b;
+  --card-hover: #27272a;
+}
+
+html,
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}

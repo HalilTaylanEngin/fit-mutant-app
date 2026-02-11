@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Fit Mutant - Kas Kütlesi Artır</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0df26c",
+                        "background-light": "#f5f8f7",
+                        "background-dark": "#102217",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .glass-header {
+            background: rgba(16, 34, 23, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .hero-gradient {
+            background: linear-gradient(0deg, #102217 0%, rgba(16, 34, 23, 0.4) 50%, rgba(16, 34, 23, 0) 100%);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-100 antialiased">
+<!-- iOS Status Bar Placeholder -->
+<div class="h-11 w-full bg-background-dark sticky top-0 z-50"></div>
+<!-- Sticky Header -->
+<header class="glass-header sticky top-0 z-40 px-6 py-4 flex items-center justify-between border-b border-primary/10">
+<button class="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 text-primary">
+<span class="material-icons">chevron_left</span>
+</button>
+<span class="font-bold tracking-tight text-lg uppercase italic">Fit Mutant</span>
+<button class="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 text-primary">
+<span class="material-icons">share</span>
+</button>
+</header>
+<main class="pb-32">
+<!-- Hero Section -->
+<section class="relative h-[420px] w-full overflow-hidden">
+<img alt="Professional bodybuilder training" class="absolute inset-0 w-full h-full object-cover" data-alt="Muscular male bodybuilder lifting heavy dumbbells in dark gym" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOz3onTVP7y72V4O83eP2APorC1HMhmxoELwLQDUcSuxjJddj4t9TQYGup_itdjoUI4FsxB0T9Hyb9qfRCz-WjMf4kTU7ad60f9sFJFfCaI8VyX0RzJ3E26FMQBz8jNaPI7uLaGH9ZWBsHpjdSuOs1MnSfJEpDApAAOg2-Z3VdSTN9zIYKugJ3oEzvzLC8_Za7SAXZD4uhXUJmdqACtnj0voQGVgAq21yiCag4y9UtSqKoNAX9dXTwGgg9yVf5nEzO89K7P_vCF20w"/>
+<div class="absolute inset-0 hero-gradient"></div>
+<div class="absolute bottom-0 left-0 p-6 w-full">
+<div class="inline-block px-3 py-1 rounded-full bg-primary text-background-dark text-[10px] font-extrabold uppercase mb-3">Kilo Alma &amp; Hacim</div>
+<h1 class="text-4xl font-extrabold leading-tight text-white mb-2">Güçlü Bir Fizik İçin <span class="text-primary">Kas Kütleni Artır</span></h1>
+<p class="text-slate-300 text-sm max-w-xs">Ectomorph (Hardgainer) genetiğine özel, bilimsel temelli büyüme stratejileri.</p>
+</div>
+</section>
+<!-- Stats Grid -->
+<section class="grid grid-cols-3 gap-4 px-6 -mt-8 relative z-10">
+<div class="bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/10 flex flex-col items-center">
+<span class="text-primary font-bold text-lg">12</span>
+<span class="text-[10px] uppercase text-slate-400">Hafta</span>
+</div>
+<div class="bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/10 flex flex-col items-center">
+<span class="text-primary font-bold text-lg">5+</span>
+<span class="text-[10px] uppercase text-slate-400">Gün/Hafta</span>
+</div>
+<div class="bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/10 flex flex-col items-center">
+<span class="text-primary font-bold text-lg">Zor</span>
+<span class="text-[10px] uppercase text-slate-400">Seviye</span>
+</div>
+</section>
+<!-- Core Pillars -->
+<section class="px-6 mt-10">
+<h2 class="text-xl font-bold mb-6 flex items-center">
+<span class="w-1.5 h-6 bg-primary mr-3 rounded-full"></span>
+                Program Stratejisi
+            </h2>
+<div class="space-y-4">
+<!-- Clean Bulking -->
+<div class="group p-5 bg-white/5 rounded-xl border border-white/5 hover:border-primary/30 transition-all">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center shrink-0">
+<span class="material-icons text-primary text-3xl">restaurant</span>
+</div>
+<div>
+<h3 class="font-bold text-lg text-white mb-1">Clean Bulking</h3>
+<p class="text-slate-400 text-sm leading-relaxed">Yağlanmadan kas kütlesi kazanmak için optimize edilmiş yüksek kalorili beslenme planı. Makro dengen her hafta güncellenir.</p>
+</div>
+</div>
+</div>
+<!-- Hypertrophy Training -->
+<div class="group p-5 bg-white/5 rounded-xl border border-white/5 hover:border-primary/30 transition-all">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center shrink-0">
+<span class="material-icons text-primary text-3xl">fitness_center</span>
+</div>
+<div>
+<h3 class="font-bold text-lg text-white mb-1">Hipertrofi Odaklı Antrenman</h3>
+<p class="text-slate-400 text-sm leading-relaxed">Kas liflerini maksimum düzeyde uyarmak için tasarlanmış progresif yükleme (progressive overload) sistemi.</p>
+</div>
+</div>
+</div>
+<!-- Supplement Consultancy -->
+<div class="group p-5 bg-white/5 rounded-xl border border-white/5 hover:border-primary/30 transition-all">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center shrink-0">
+<span class="material-icons text-primary text-3xl">science</span>
+</div>
+<div>
+<h3 class="font-bold text-lg text-white mb-1">Supplement Danışmanlığı</h3>
+<p class="text-slate-400 text-sm leading-relaxed">Creatine, Whey Protein ve Gainer gibi desteklerin en verimli kullanım zamanlamaları ve dozajları.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Coach Card -->
+<section class="px-6 mt-10">
+<div class="bg-gradient-to-r from-primary/10 to-transparent p-6 rounded-2xl border border-primary/20">
+<div class="flex items-center gap-4 mb-4">
+<div class="relative">
+<img alt="Professional Fitness Coach" class="w-16 h-16 rounded-full object-cover border-2 border-primary" data-alt="Close up portrait of a fit professional fitness coach" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrcoDJI28hc7reYD1BPTc_1VG0q0wO9asLD-ELfwKgroMTGBEdqYBB0pwAo0S1fqLso-AqYhZiGWUrSygvvepsm5e447xVV9GBcj7NGanvrITnESJkcgGOlYg4tOmaYrhcOG0d3KDu_cYuBjZJZrKy6t4YERpnLTh4zai3enCwGVBLh5Ps0wzs70MxK57iuNTlOAtKpqbnNrsFH_alw8NuhBBjVUefgwYxDYvykrMRzWqgVCTOYCBpHfoLSBw7UMFr7i8pDiXWER5S"/>
+<div class="absolute bottom-0 right-0 w-4 h-4 bg-primary rounded-full border-2 border-background-dark"></div>
+</div>
+<div>
+<h4 class="font-bold text-white text-lg">Koç Kerem Mutant</h4>
+<p class="text-primary text-xs font-medium uppercase">Kıdemli Hipertrofi Uzmanı</p>
+</div>
+</div>
+<p class="text-sm text-slate-300 italic">"Genetik sınırlarını zorlamak için sadece çok çalışmak yetmez, akıllıca beslenmek ve planlı dinlenmek zorundasın. Bu yolda beraberiz."</p>
+</div>
+</section>
+<!-- Nutrition Preview -->
+<section class="px-6 mt-10">
+<h2 class="text-xl font-bold mb-6 flex items-center">
+<span class="w-1.5 h-6 bg-primary mr-3 rounded-full"></span>
+                Beslenme Örneği
+            </h2>
+<div class="relative rounded-2xl overflow-hidden group">
+<img alt="High calorie clean meal" class="w-full h-48 object-cover opacity-60 group-hover:scale-105 transition-transform duration-500" data-alt="Nutritious high calorie meal with steak and vegetables" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSuhQb1RDgquq6jp4kQKRHWSeGy0qqSkLugbw6OqjcXqOYeX3F-63qkN0cypcJLW16uyFoYBFySRexQGAP0rz9EdTsl2VJK4cacRYXuNdng7_pEG9-S4Znug8auKnJHWn2syQiMTY6_NIO9kyuHjdonYB5_3ciwccYaqYbolutw6OTMSXO4qbFK9rGGPB76K4wD5QdabMR-YhjK1E8tWBI_Mga2as_HqszE-w6H7YAcyfq9Fn5E8x-MOJJ3tMi95UgA7M7LWQ7J0W3"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/20 to-transparent p-6 flex flex-col justify-end">
+<div class="flex justify-between items-end">
+<div>
+<h5 class="font-bold text-white uppercase text-xs tracking-widest mb-1">MUTANT ÖĞÜN #04</h5>
+<p class="text-lg font-bold text-white">Biftek &amp; Kompleks Karbonhidrat</p>
+</div>
+<div class="text-right">
+<span class="block text-primary font-bold">850 kcal</span>
+<span class="text-[10px] text-slate-400">45g Protein</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Transformation -->
+<section class="px-6 mt-10">
+<h2 class="text-xl font-bold mb-6 flex items-center">
+<span class="w-1.5 h-6 bg-primary mr-3 rounded-full"></span>
+                Mutant Başarıları
+            </h2>
+<div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
+<div class="min-w-[280px] bg-white/5 rounded-xl p-4 border border-white/5">
+<div class="flex gap-2 mb-3">
+<div class="w-1/2 aspect-[4/5] rounded-lg bg-slate-800 overflow-hidden relative">
+<img class="w-full h-full object-cover grayscale opacity-50" data-alt="Before physique photo of a thin person" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAKaGG5q3RrKcwgmTysuxGquI_tgO6qOAd8KtrKEel2CjhuUqihrAhODzbZ5dWSFiwJVCk39EUarHf3FsmGqSKIA6A4bVcl2IjAKxkNrC1NAeIxQN61v3VmqyJAsh2FwlyNevgBzIxmP34kCIw7PkfNQ77zmlPz0pipHmYg2sJaU7LU8RUhOiSgfmaqzAtWw3aFGsAvwQb57o7cxS6zIBXoUdfpqbeeyGPPM_BkB93NMvDrKXdw4NySDpRxTTwA6xMYlj54NLIfFPd"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-black/60 text-[8px] rounded uppercase">Önce</span>
+</div>
+<div class="w-1/2 aspect-[4/5] rounded-lg bg-slate-800 overflow-hidden relative border border-primary/40">
+<img class="w-full h-full object-cover" data-alt="After physique photo showing muscle gain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSxJmubGVM2cC5Xu_d-FagYGviVcR7RWDSDZ1S2i-Yl5U7RwAFl9ZUip4QJcqWYojnqjMjd_6-XxgTua5yso99N0tmTiyrlFoiQGuliLkC11_TLPrVr01Yx5Yz36dLJcxUtM2XjkzxDhnCRABQHgzlENFZdBW6LSMsIP7a_Uz_Z9A-NfGj48t-uG0TB0zedKyz2uMsvs0pLJVKy1F827kf3TlZPMz4lREfuRKzUowhDit3JqzE-j0l3I92tw609jCI_IB7Wr4V7SFo"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-primary text-background-dark text-[8px] font-bold rounded uppercase italic">Sonra</span>
+</div>
+</div>
+<p class="text-xs text-slate-400"><strong class="text-white">Emre K.</strong> (12 Haftalık Değişim)</p>
+<p class="text-[10px] text-primary mt-1 font-bold">+9.2 KG KAS KÜTLESİ</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Sticky Bottom CTA -->
+<div class="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-background-dark via-background-dark to-transparent z-50">
+<div class="bg-white/5 backdrop-blur-xl border border-white/10 p-4 rounded-2xl flex items-center justify-between">
+<div>
+<span class="block text-[10px] uppercase text-slate-400 font-bold tracking-widest">Aylık Ücret</span>
+<span class="text-2xl font-black text-white">499.00₺</span>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-background-dark font-black px-8 py-4 rounded-xl flex items-center gap-2 shadow-[0_0_20px_rgba(13,242,108,0.3)] active:scale-95 transition-transform">
+                PROGRAMA KATIL
+                <span class="material-icons">bolt</span>
+</button>
+</div>
+<!-- iOS Home Indicator Space -->
+<div class="h-4 w-full"></div>
+</div>
+</body></html>
