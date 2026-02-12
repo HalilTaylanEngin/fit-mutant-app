@@ -59,7 +59,7 @@ const Home = () => {
           padding: "20px",
         }}
       >
-        <h1
+        {/* <h1
           style={{
             fontSize: "3.5rem",
             fontWeight: "800",
@@ -72,7 +72,7 @@ const Home = () => {
         >
           HAYALİNDEKİ VÜCUT{" "}
           <span style={{ color: "var(--theme-green)" }}>MUTANT</span> MODUNDA
-        </h1>
+        </h1> */}
         <p
           style={{
             fontSize: "1.2rem",
