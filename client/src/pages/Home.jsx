@@ -43,13 +43,14 @@ const CategoryButton = ({ to, color, title, icon: Icon, description }) => (
 
 const Home = () => {
   return (
-    <div style={{ paddingBottom: "80px" }}>
+    <div style={{ paddingHorizantal: "80px" }}>
       {/* HERO SECTION */}
       <section
         style={{
-          paddingTop: "550px", // Adjusted for balance
+          minHeight: "80vh",
+          paddingTop: "450px", // Adjusted for balance
           backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 30%, transparent 100%), url(${heroImg})`,
-          backgroundSize: "cover",
+          backgroundSize: "contain",
           backgroundPosition: "center",
           display: "flex",
           flexDirection: "column",
@@ -59,20 +60,6 @@ const Home = () => {
           padding: "20px",
         }}
       >
-        {/* <h1
-          style={{
-            fontSize: "3.5rem",
-            fontWeight: "800",
-            marginBottom: "20px",
-            textTransform: "uppercase",
-            lineHeight: "1.1",
-            textShadow: "2px 2px 8px rgba(0,0,0,0.9)", // Strong shadow for readability
-            color: "white", // Always white on image
-          }}
-        >
-          HAYALİNDEKİ VÜCUT{" "}
-          <span style={{ color: "var(--theme-green)" }}>MUTANT</span> MODUNDA
-        </h1> */}
         <p
           style={{
             fontSize: "1.2rem",
@@ -117,7 +104,11 @@ const Home = () => {
         }}
       >
         <h2
-          style={{ fontSize: "2.5rem", marginBottom: "20px", color: "white" }}
+          style={{
+            fontSize: "2.5rem",
+            marginBottom: "20px",
+            color: "var(--text-color)",
+          }}
         >
           BEN KİMİM?
         </h2>
