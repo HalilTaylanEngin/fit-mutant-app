@@ -1,22 +1,22 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
 import Home from "./pages/Home";
-import MuscleGain from "./pages/MuscleGain";
-import AthleteNutrition from "./pages/AthleteNutrition";
-import ApplicationForm from "./pages/ApplicationForm";
-import About from "./pages/About";
+import WeightLoss from "./pages/WeightLoss";
+import WeightGain from "./pages/WeightGain";
+import SportsNutrition from "./pages/SportsNutrition";
 
 const App = () => {
   return (
     <Router>
-      <div className="pb-16">
+      <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/muscle-gain" element={<MuscleGain />} />
-          <Route path="/nutrition" element={<AthleteNutrition />} />
-          <Route path="/apply" element={<ApplicationForm />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/weight-loss" element={<WeightLoss />} />
+          <Route path="/weight-gain" element={<WeightGain />} />
+          <Route path="/sports-nutrition" element={<SportsNutrition />} />
         </Routes>
-      </div>
+      </Layout>
     </Router>
   );
 };
